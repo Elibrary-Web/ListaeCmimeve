@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet" />
+    <title>Pricing Table Component</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Çmimi ynë</h1>
+    <div class="toggle">
+      <label>Çdo Vit </label>
+      <div class="toggle-btn">
+        <input type="checkbox" class="checkbox" id="checkbox" />
+        <label class="sub" id="sub" for="checkbox">
+          <div class="circle"></div>
+        </label>
+      </div>
+      <label> Çdo Muaj</label>
+    </div>
+  </header>
+  <div class="cards">
+    <div class="card shadow">
+      <ul>
+        <li class="pack">Basic</li>
+        <li id="basic" class="price bottom-bar">$70</li>
+        <li class="bottom-bar">Deri në 100 libra</li>
+        <li class="bottom-bar">      Vetëm lexim Online</li>
+        <li class="bottom-bar"> Vetëm 1 perdorues</li>
+        <li><button class="btn">Learn More</button></li>
+      </ul>
+    </div>
+    <div class="card active">
+      <ul>
+        <li class="pack">Premium</li>
+        <li id="professional" class="price bottom-bar">$300</li>
+        <li class="bottom-bar">Qasje: Të gjitha librat + audiobooks</li>
+        <li class="bottom-bar">Funksionalitete: Lexim offline,personalizim.</li>
+        <li class="bottom-bar">Përdorues: Deri ne 5 përdorues</li>
+        <li><button class="btn active-btn">Learn More</button></li>
+      </ul>
+    </div>
+    <div class="card shadow">
+      <ul>
+        <li class="pack">Advanced</li>
+        <li id="master" class="price bottom-bar">$150</li>
+        <li class="bottom-bar">Deri në 500 libra + mundësi shkarkimi</li>
+        <li class="bottom-bar">Lexim gjithashtu offline.</li>
+        <li class="bottom-bar">Deri 3 përdorues</li>
+        <li><button class="btn">Learn More</button></li>
+      </ul>
+    </div>
+  </div>
+  <p class="paragraf">Abonohuni për një vit dhe përfitoni zbritje eskluzive! <br>Zgjidhni planin që ju përshtatet më mirë,Kurseni deri 20% dhe shijoni akses të pandërprerë në bibloteken tonë digjitale gjatë gjithë vitit : )</p>
+  <script src="script.js"></script>
+</body>
+</html>
